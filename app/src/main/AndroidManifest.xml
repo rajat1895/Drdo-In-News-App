@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajat.actionbartry">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ourapplogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="com.example.rajat.actionbartry.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RateActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.rajat.actionbartry.MainActivity" />
+        </activity>
+        <activity android:name=".Register" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.MainActivity" />
+        </activity>
+        <activity android:name=".DisplayMessage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.MainActivity" />
+
+        </activity>
+        <activity android:name=".News1Activity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.rajat.actionbartry.DisplayMessage" />
+        </activity>
+        <activity android:name=".News2Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.DisplayMessage" />
+
+        </activity>
+        <activity android:name=".News3Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.DisplayMessage" />
+
+        </activity>
+        <activity android:name=".News4Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.DisplayMessage" />
+
+        </activity>
+        <activity android:name=".News5Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.DisplayMessage" />
+
+        </activity>
+        <activity android:name=".News6Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.DisplayMessage" />
+
+        </activity>
+        <activity android:name=".News7Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.DisplayMessage" />
+
+        </activity>
+        <activity android:name=".InfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.actionbartry.MainActivity" />
+
+        </activity>
+        <activity android:name=".SplashLogo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

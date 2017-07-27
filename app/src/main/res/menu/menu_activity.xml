@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/info_id"
+        android:title="info"
+        android:icon="@drawable/ic_star_rate_black_18dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/guest_id"
+        android:title="As Guest"
+        android:icon="@drawable/ic_star_rate_black_18dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rate_id"
+        android:title="rate app"
+        android:icon="@drawable/ic_star_rate_black_18dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/logout"
+        android:title="logout"
+        android:icon="@drawable/ic_star_rate_black_18dp"
+        app:showAsAction="never"/>
+
+
+
+</menu>
